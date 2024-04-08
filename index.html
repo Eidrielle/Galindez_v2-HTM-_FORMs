@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="C:\Users\user\Downloads\d.jpg">
+    
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">Order now ▼</a>
+            <ul class="dropdown">
+                <li><a href="Appetizer.html">Appetizer</a></li>
+                <li><a href="Main.html">Main Course</a></li>
+                <li><a href="dessert.html">Dessert</a></li>
+                <li><a href="extra.html">Extra's</a></li>
+            </ul>
+        </li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+
+    <div class="centered">
+        <img src="C:\Users\user\Downloads\jh.jpg" alt="Restaurant Logo">
+        <h1>EJ's Restaurant Delivery </h1>
+    </div>
+
+    <h2>We Can Deliver As Soon As Posible</h2>
+
+    <div class="container">
+        <form id="infoForm">
+            <h3>Fill up First:</h3>
+            <label for="name">     Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="age">     Age:</label>
+            <input type="number" id="age" name="age">
+            <br>
+            <label for="name"> Address:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="age">Contact#:</label>
+            <input type="number" id="age" name="age">
+            <br>
+            
+            <input type="submit" value="Submit" id="submitButton">
+        </form>
+        <p id="submissionMessage" style="display: none;">Your info is submitted. Please click "Order now".</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

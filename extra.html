@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="C:\Users\user\Downloads\de.jpg">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Appetizer.html">Appetizer</a></li>
+        <li><a href="Main.html">Main Course</a></li>
+        <li><a href="dessert.html">Dessert</a></li>
+    </ul>
+    <div class="menu-container">
+       
+        <div class="order-section">
+       
+            <h2>Your Order:</h2>
+            <ul class="order-items"></ul>
+           
+        </div>
+        <div class="menu">
+            <div class="category">
+                <button class="dropdown-btn">Food</button>
+                <ul class="items">
+                    <li>rice - P50</li>
+                    <li>Gravy - P80</li>
+                    <li>soup - P70</li>
+                </ul>
+            </div>
+            <div class="category">
+                <button class="dropdown-btn">drinks</button>
+                <ul class="items">
+                    <li>lemon - P200</li>
+                    <li>milktea- P180</li>
+                    <li>nestea- P150</li>
+                </ul>
+            </div>
+        
+                <div class="order-options">
+                    <label for="order-type">Choose order type:</label>
+                    <select id="order-type">
+                        <option value="dine-in">Dine In</option>
+                        <option value="take-out">Take Out</option>
+                    </select>
+                    <label for="payment-mode">Choose payment mode:</label>
+                    <select id="payment-mode">
+                        <option value="cash">Cash</option>
+                        <option value="card">Card</option>
+                    </select>
+                    <button id="place-order">Place Order</button>
+                    <button id="cancel-order">Cancel Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
